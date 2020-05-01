@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/* Scalable Container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container.scalable {
+    width: 95%;
+    max-width: none;
+}
+
+/* Banner
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.banner {
+    background-color: none; /* Machine Learning Color is orange */
+    /* padding: 1rem 0; */
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.banner h2 {
+    color: #a5b1cd;
+    display: inline-block;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4rem;
+    line-height: 0;
+    text-align: center;
+}
+
+.banner h2:hover {
+    color: #b4b5bf;
+    cursor: pointer;
+}
+
+.banner Img {
+    position: relative;
+    /* float: right; */
+    height: 2.5rem;
+    margin-top: 1.25rem;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+@media (max-width: 1300px) {
+
+    .banner .container.scalable {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner h2 {
+        font-size: 4rem;
+    }
+
+    .banner Img {
+		min-height: 100%;
+        /* height: 8rem; */
+        /* margin-bottom: 3rem; */
+    }
+}
+
+@media (max-width: 700px) {
+    .banner .container.scalable {
+        padding: 0
+    }
+
+    .banner Img {
+        height: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner {
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+    }
+
+    .banner Img {
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .banner h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* /* app-container */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– */ */
+/* @media (min-width: 951px) { */
+    /* #app-container { */
+        /* width: 100%; */
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* align-items: flex-start; */
+    /* } */
+/* } */
+
