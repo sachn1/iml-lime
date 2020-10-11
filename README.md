@@ -5,4 +5,6 @@ This work is done to explore LIME surrogate model on a dataset. We start by deep
 1. Understanding and testing the effects of each hyper-parameter of LIME and see its limitations.
 2. Building an on-the-cloud GUI application, which serves two purposes; Allows IML (Interpretable Machine Learning) user to see the effect of each hyperparameter on individual features and see the working of LIME in real-time. Secondly, allowing subject matter expert to view the findings and derive inferences from it.
 
+Feel free to explore the real-time interactive tool [RUSKLAINER](https://rusklainer.herokuapp.com/)!  
+
 ![https://rusklainer.herokuapp.com/](assets/gui1.png)
